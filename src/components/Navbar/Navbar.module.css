@@ -1,0 +1,31 @@
+.Navbar {
+    background-color: #000000;
+    color: white;
+    padding: 40px;
+}
+
+.Navbar .Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Navbar .Navlinks {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.Navbar .Navlinks a {
+    color: #fff;
+    text-decoration: none;
+
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.NavLogo {
+    height: 80px;
+    width: auto;
+}

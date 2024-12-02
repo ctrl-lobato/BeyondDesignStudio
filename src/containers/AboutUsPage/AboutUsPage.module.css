@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Righteous&family=Rubik+Dirt&family=Rubik+Puddles&display=swap');
+
+.AboutUs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #00cab9;
+    height: fit-content;
+}
+
+.AboutUsInfo {
+    display: flex;
+    width: auto;
+    padding: 0 80px;
+    gap: 104px;
+}
+
+.AboutUsInfo h1 {
+    color: #ffee00;
+    font-size: 6.4rem;
+    font-family: "Rubik Puddles", system-ui;
+    font-weight: 400;
+    text-shadow: 0 0 16px #1b8c90;
+}
+
+.AboutUsInfo p {
+    color: #fff;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    align-self: center;
+    text-align: justify;
+}
+
+.AboutImg {
+    height: 72vh;
+    background: linear-gradient(to bottom, #00cab9, #00cab99e 50%),
+                url(/public/diseño.jpg) no-repeat center center/cover;
+}
+
+.Mision {
+    height: auto;
+    background-color: #ff2a87;
+    display: flex;
+    flex-direction: row;
+}
+
+.MisionImg {
+    width: 100%;
+    background-image: url(/public/diseño2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    scale: 0.9;
+}
+
+.MisionInfo {
+    width: 70%;
+    padding: 64px;
+    color: #ffc1e3;
+    justify-items: center;
+}
+
+.MisionInfo h1 {
+    font-size: 9rem;
+    font-family: "Rubik Dirt", system-ui;
+    font-weight: 400;
+    margin: 0;
+}
+
+.MisionInfo p {
+    padding: 24px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+    font-style: italic;
+    margin: 0;
+}
+
+.Products {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffee00;
+    height: auto;
+    padding: 40px;
+    gap: 40px;
+}
+
+.Products h1 {
+    font-size: 8rem;
+    font-family: "Rubik Puddles", system-ui;
+    font-weight: 400;
+    text-align: center;
+    color: #00403b;
+    margin: 32px;
+}
+
+.CategoriesList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+
