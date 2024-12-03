@@ -1,0 +1,30 @@
+.Available {
+    background-color: #00cab9;
+    margin: 0;
+    padding: 40px 0;
+}
+
+.Available h1 {
+    color: #fff;
+    font-family: "Rubik Dirt", system-ui;
+    font-weight: 400;
+    font-size: 6rem;
+    text-align: center;
+    margin: 0;
+}
+
+.Products {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #ff2a87, #ffee00 40%);
+    height: auto;
+    padding: 104px 40px;
+    gap: 40px;
+}
+
+.ProductsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}

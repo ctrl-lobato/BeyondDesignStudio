@@ -1,0 +1,55 @@
+.Header {
+    background: linear-gradient(to top, #ff2a87, #000);
+    height: 60vh;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.Header h1 {
+    font-family: "Rubik Dirt", system-ui;
+    font-weight: 400;
+    font-size: 6rem;
+    color: #fff;
+    font-style: italic;
+    margin: 0;
+    background-color: #00cab9;
+    padding-top: 24px;
+}
+
+.Header p {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    color: #fff;
+    font-size: 1.6rem;
+    margin: 0;
+    background-color: #00cab9;
+    padding: 8px 0 24px 0;
+}
+
+.Services {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #ff2a87, #ffee00 40%);
+    height: auto;
+    padding: 40px;
+    gap: 40px;
+}
+
+.Services h1 {
+    font-size: 8rem;
+    font-family: "Rubik Puddles", system-ui;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    margin: 32px;
+}
+
+.CategoriesList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+

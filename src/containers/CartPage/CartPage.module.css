@@ -1,0 +1,29 @@
+.Cart {
+    background: linear-gradient(to bottom, #00cab9, #ff2a87);
+    height: auto;
+    margin: 0;
+    padding: 40px 80px;
+}
+
+.Cart h1 {
+    color: #fff;
+    font-family: "Rubik Puddles", system-ui;
+    font-weight: 400;
+    font-size: 6rem;
+}
+
+.CartProducts {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #ff2a87, #ffee00 40%);
+    height: auto;
+    padding: 104px 40px;
+    gap: 40px;
+}
+
+.CartProductsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}

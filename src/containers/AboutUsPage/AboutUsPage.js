@@ -2,10 +2,8 @@ import React from 'react';
 
 import css from './AboutUsPage.module.css';
 
-import { CategoryCard } from '../../components';
 import { Navbar } from '../../components';
 import { Footer } from '../../components';
-import { categories } from '../../utils/categories';
 
 const AboutUsPage = () => {
     return (
@@ -26,15 +24,6 @@ const AboutUsPage = () => {
                 <h1> NUESTRA MISIÓN </h1>
                 <p> Nuestra misión es combinar arte y tecnología para crear productos personalizados que se destaquen. Cada creación está diseñada para reflejar tu personalidad, marca o visión. Con experiencia en diseño gráfico y animación, nuestro objetivo es ofrecer diseños imaginativos de alta calidad que inspiren e impresionen.</p>
             </div>
-        </div>
-
-        <div className={css.Products} id="services">
-            <h1> ¿QUÉ OFRECEMOS? </h1>
-                <div className={css.CategoriesList}>
-                {categories.map((category) => {
-                    return <CategoryCard key={category.id} category={category} /> 
-                })}
-                </div>
         </div>
         
         <div id="contact">

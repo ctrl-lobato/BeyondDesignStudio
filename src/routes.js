@@ -1,6 +1,10 @@
 import {
     AboutUsPage,
+    HomePageBDS,
     HomePage,
+    ProductsPage,
+    CartPage
+    
 } from "./containers";
 
 export const routes = [
@@ -9,7 +13,19 @@ export const routes = [
         element: <HomePage /> 
     },
     {
+        path: '/home',
+        element: <HomePageBDS /> 
+    },
+    {
         path: '/about',
         element: <AboutUsPage /> 
+    },
+    {
+        path: '/products',
+        element: <ProductsPage /> 
+    },
+    {
+        path: '/cart',
+        element: <CartPage /> 
     }
 ]

@@ -8,12 +8,17 @@ class Footer extends Component {
 
         return (
             <footer className={css.Footer}>
-                <div>
+                <div className={css.FooterPhrase}>
+                    <h1> ¿QUIERES TU PROPIO DISEÑO? </h1>
+                    <h3> ¡Contáctanos! </h3>  
+                </div>
+                <div className={css.FooterContact}>
                     <h3> Instagram: @ beyondstudio </h3>
                     <h3> Facebook: @ Beyond Design Studio </h3>
                     <h3> Tik Tok: @ Beyond_DesignStudio </h3>
+                    <br/><br/><br/>
+                    <p>&copy; {new Date().getFullYear()} Beyond Design Studio. Todos los derechos reservados.</p>
                 </div>
-                <p>&copy; {new Date().getFullYear()} Beyond Design Studio. Todos los derechos reservados.</p>
             </footer>
         )
     }

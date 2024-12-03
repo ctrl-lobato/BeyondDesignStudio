@@ -75,29 +75,3 @@
     font-style: italic;
     margin: 0;
 }
-
-.Products {
-    display: flex;
-    flex-direction: column;
-    background-color: #ffee00;
-    height: auto;
-    padding: 40px;
-    gap: 40px;
-}
-
-.Products h1 {
-    font-size: 8rem;
-    font-family: "Rubik Puddles", system-ui;
-    font-weight: 400;
-    text-align: center;
-    color: #00403b;
-    margin: 32px;
-}
-
-.CategoriesList {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 24px;
-}
-

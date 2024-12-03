@@ -5,9 +5,6 @@ import {
   RouterProvider,
 } from 'react-router-dom'
 import './index.css';
-import {
-  HomePage
-} from './containers';
 import reportWebVitals from './reportWebVitals';
 import { routes } from './routes';
 

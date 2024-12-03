@@ -35,7 +35,7 @@ class CategoryCard extends Component {
                     <p>{category.description}</p>
                     <p>{category.price}</p>
                 </div>
-                <button className={css.CategoryCard_button}>Ver más</button>
+                <button className={css.CategoryCard_button}>Ver disponibles</button>
             </div>
         )
     }
