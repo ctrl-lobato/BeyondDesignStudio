@@ -39,6 +39,10 @@
     transition: transform 0.5s ease-in-out;
 }
 
+.CategoryCard_button:active {
+  scale: 0.8;
+}
+
 .CategoryCard_button:hover {
     transform: scale(1.1);
     transition: transform 0.5s ease-in-out;

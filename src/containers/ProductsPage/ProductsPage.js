@@ -13,7 +13,7 @@ const ProductsPage = () => {
         <div>
             <Navbar />
 
-            <div className={css.Available} id="products">
+            <div className={css.Available}>
                 <h1> PRODUCTOS DISPONIBLES </h1>
             </div> 
 
